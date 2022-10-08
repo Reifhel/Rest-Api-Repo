@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f1f1f1;
+}
+
+.corpo{
+    max-width: 120vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.repositorio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 5px #000;
+    transition: 0.5s;
+}
+
+.repositorio:hover{
+    transform: scale(1.1);
+}
+
+.repositorio .nome{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    text-transform: capitalize;
+}
+
+.repositorio .descricao{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.repositorio .botoesLink{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0.5rem;
+}
+
+.repositorio .botaoLink{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 5px #000;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.repositorio .botaoLink:visited{
+    color: #000;
+}
+.repositorio .botaoLink:link{
+    color: #000;
+}
+.repositorio .botaoLink:hover{
+    transform: scale(1.1);
+}
+
+.inclicavel{
+    pointer-events: none;
+    opacity: 0.5;
+}
