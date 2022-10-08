@@ -31,7 +31,7 @@ function cria_projeto() {
             botoesLink.appendChild(linkGit);
             botoesLink.appendChild(linkPortfolio);
 
-            nome.innerHTML = data[i].name;
+            nome.innerHTML = data[i].name.replaceAll("-", " ");
             descricao.innerHTML = data[i].description;
             linkGit.innerHTML = 'GitHub';
             linkPortfolio.innerHTML = 'Portfolio';
