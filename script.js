@@ -34,7 +34,7 @@ function cria_projeto() {
             nome.innerHTML = data[i].name.replaceAll("-", " ");
             descricao.innerHTML = data[i].description;
             linkGit.innerHTML = 'GitHub';
-            linkPortfolio.innerHTML = 'Portfolio';
+            linkPortfolio.innerHTML = 'Página Web';
 
             linkGit.href = data[i].html_url;
             linkGit.target = '_blank';
